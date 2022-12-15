@@ -1,0 +1,145 @@
+/* font name:
+    font-family: 'Futura', sans-serif;
+*/
+
+/* font style. start */
+
+p,
+a,
+h1,
+h2 {
+    font-family: 'Futura', sans-serif;
+    font-style: normal;
+    color: #fff;
+}
+
+p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    margin: 0;
+}
+
+a {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration: none;
+}
+
+h1,
+h2 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.speed-extension {
+    margin-top: 20px;
+    width: 761px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 66px;
+}
+
+.learn-in-an-hour {
+    margin-top: 30px;
+    margin-bottom: 45px;
+    width: 400px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.button-text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+/* font style. end */
+/* header. start */
+.header {
+    margin: auto;
+    position: static;
+    width: 1440px;
+    height: 145px;
+    background: #4C3D74;
+}
+
+.burger-conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 105px;
+    padding-left: 140px;
+    width: calc(1440px - (140px * 2));
+    height: 40px;
+}
+
+.burger-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 535px;
+}
+
+/* header. end */
+/* main. start */
+/* section1. start */
+.world-first-intensive {
+    margin: auto;
+    padding-top: 105px;
+    position: relative;
+    background: #4C3D74;
+    width: 1440px;
+    height: calc(800px - 145px);
+}
+
+
+.first-intensive-text {
+    width: 312px;
+}
+
+.first-section-text-conteiner {
+    padding-left: 140px;
+}
+
+.button-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 0;
+    width: 245px;
+    height: 60px;
+    background: #A387C4;
+    border-radius: 30px;
+    border: none;
+}
+
+.button-style:hover {
+    width: 239px;
+    height: 54px;
+    border: 3px solid #A387C4;
+    background: #4C3D74;
+}
+
+.first-section-button-conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 515px;
+    height: 60px;
+}
+
+.smileFace {
+    position: absolute;
+    width: 472px;
+    height: 472px;
+    left: 800px;
+    top: 0px;
+    background: url('./assets/svg/holiday.svg');
+}
+
+/* section1. end */
