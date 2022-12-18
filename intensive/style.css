@@ -27,12 +27,18 @@ a {
     text-decoration: none;
 }
 
-h1,
-h2 {
+h1 {
     margin: 0;
     font-weight: 700;
     font-size: 20px;
     line-height: 27px;
+}
+
+h2 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 66px;
 }
 
 .speed-extension {
@@ -65,7 +71,7 @@ h2 {
     position: static;
     width: 1440px;
     height: 145px;
-    background: #4C3D74;
+    background: #4c3d74;
 }
 
 .burger-conteiner {
@@ -91,9 +97,9 @@ h2 {
     margin: auto;
     padding-top: 105px;
     position: relative;
-    background: #4C3D74;
+    background: #4c3d74;
     width: 1440px;
-    height: calc(800px - 145px);
+    height: calc(800px - 145px - 105px);
 }
 
 
@@ -113,7 +119,7 @@ h2 {
     padding: 0;
     width: 245px;
     height: 60px;
-    background: #A387C4;
+    background: #a387c4;
     border-radius: 30px;
     border: none;
 }
@@ -121,8 +127,8 @@ h2 {
 .button-style:hover {
     width: 239px;
     height: 54px;
-    border: 3px solid #A387C4;
-    background: #4C3D74;
+    border: 3px solid #a387c4;
+    background: #4c3d74;
 }
 
 .first-section-button-conteiner {
@@ -137,9 +143,245 @@ h2 {
     position: absolute;
     width: 472px;
     height: 472px;
-    left: 800px;
+    left: 900px;
     top: 0px;
     background: url('./assets/svg/holiday.svg');
 }
 
 /* section1. end */
+
+/* section2. start */
+.section-who-are-you {
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+    width: 1440px;
+    height: 710px;
+    background: #e5e5e5;
+}
+
+.superwoman-picture {
+    position: absolute;
+    width: 243px;
+    height: 243px;
+    left: 1037px;
+    top: 1267px;
+    background: url('./assets/svg/super.svg');
+}
+
+.charge-become-famous-conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: calc(510px + 30px + 245px);
+    padding-left: 140px;
+    padding-top: 45px;
+}
+
+.if-you-text {
+    padding-left: 325px;
+    padding-top: 175px;
+    color: #4c3d74;
+}
+
+.reasons-wrapper {
+    padding-left: 125px;
+    padding-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    width: 1190px;
+}
+
+.reason-conteiner {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    width: 380px;
+    height: 140px;
+}
+
+.first-reason-smile {
+    position: absolute;
+    left: 125px;
+    top: 1100px;
+    width: 89px;
+    height: 89px;
+    background: url('./assets/svg/sad.svg');
+    background-size: cover;
+}
+
+.second-reason-smile {
+    position: absolute;
+    left: 530px;
+    top: 1100px;
+    width: 89px;
+    height: 89px;
+    background: url('./assets/svg/student.svg');
+    background-size: cover;
+}
+
+.third-reason-smile {
+    position: absolute;
+    left: 935px;
+    top: 1100px;
+    width: 89px;
+    height: 89px;
+    background: url('./assets/svg/woman.svg');
+    background-size: cover;
+}
+
+.reason-text-conteiner {
+    display: flex;
+    align-items: center;
+    width: 335px;
+    height: 132px;
+    background: #f2eef7;
+    border: 3px solid #4C3D74;
+    border-radius: 30px;
+}
+
+.first-reason-text {
+    padding-left: 60px;
+    width: 220px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #4C3D74;
+}
+
+.second-reason-text {
+    padding-left: 60px;
+    width: 220px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #4C3D74;
+}
+
+.third-reason-text {
+    padding-left: 60px;
+    width: 220px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #4C3D74;
+}
+
+.text-size-increased {
+    font-weight: 700;
+}
+
+.become-a-master-text {
+    width: 510px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #4C3D74;
+}
+
+/* section2. end */
+
+/* section3. start */
+
+.who-and-what-awaits-you {
+    margin: auto;
+    width: 1440px;
+    height: 1380px;
+    background: #4c3d74;
+    ;
+}
+
+.on-intensive-text {
+    margin: auto;
+    padding-top: 170px;
+    width: 780px;
+}
+
+.what-is-waiting-for-you-container {
+    width: 1180px;
+    height: 160px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.star-smile {
+    margin-right: 6px;
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    background: url('./assets/svg/stars.svg');
+}
+
+.heart-smile {
+    margin-right: 6px;
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    background: url('./assets/svg/love-standart.svg');
+}
+
+.money-smile {
+    margin-right: 6px;
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    background: url('./assets/svg/money.svg');
+}
+
+.gift-smile {
+    width: 66px;
+    height: 66px;
+    background-size: cover;
+    background: url('./assets/svg/gift.svg');
+}
+
+.on-intensive-font {
+    margin-left: 25px;
+    width: 300px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+}
+
+.on-intensive-bold-font {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+}
+
+.at-the-intensive {
+    height: 66px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* part 2... Ворман и тд */
+
+.vorman {
+    width: 870px;
+    margin: auto;
+    margin-top: 145px;
+}
+
+.photo-of-the-coach {
+    width: 399px;
+    height: 491px;
+    background: url('./assets/img/MARIA_LYADOVA.jpg');
+}
+
+.about-julia-vorman-container {
+    padding-left: 140px;
+    height: 520px;
+    width: 675px;
+}
+
+/* section3. end */
